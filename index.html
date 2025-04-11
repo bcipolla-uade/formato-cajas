@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gimnasio Extreme - Registro</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenido</h1>
+    <p>¡Activa tu mejor versión!</p>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Planes</a>
+    <a href="#">Horarios</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <h2>Formulario de Registro</h2>
+
+  <form class="formulario">
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="plan">Tipo de Plan:</label>
+    <select id="plan" name="plan">
+      <option value="basico">Básico</option>
+      <option value="intermedio">Intermedio</option>
+      <option value="premium">Premium</option>
+    </select>
+
+    <label for="horario">Horario preferido:</label>
+    <select id="horario" name="horario">
+      <option value="mañana">Mañana (6:00 - 10:00)</option>
+      <option value="tarde">Tarde (14:00 - 18:00)</option>
+      <option value="noche">Noche (18:00 - 22:00)</option>
+    </select>
+
+    <input type="submit" value="Registrarme">
+  </form>
+
+  <footer>
+    &copy; 2025 Gimnasio Extreme. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
